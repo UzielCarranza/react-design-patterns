@@ -9,3 +9,9 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+
+const root2 = ReactDOM.createRoot(document.getElementById('list'));
+root2.render(
+    <App2></App2>
+)
