@@ -5,6 +5,10 @@ export const LargePersonListItem = ({ person }) => {
         <h3>Name: {name}</h3>
             <p>Age: {age}</p>
             <p>Hair color: {haircolor}</p>
+            <p>Hobbies: </p>
+            <ul>
+                {hobbies.map(hobby => <li key={hobby}>{hobby}</li>)}
+            </ul>
         </>
     )
 }
