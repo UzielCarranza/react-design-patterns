@@ -4,7 +4,12 @@ import React from "react";
 import {RegularList} from "./RegularList"
 import {SmallPersonListItem} from "./people/SmallPersonListItem"
 
+import {NumberedList} from "./NumberedList"
+
 import {LargePersonListItem} from "./people/LargePersonListItem"
+
+import {SmallProductListItem} from "./products/SmallProductListItem"
+import {LargeProductListItem} from "./products/LargeProductListItem"
 
 const people = [
     {
@@ -39,14 +44,20 @@ const products = [{
 function App2() {
     return (
         <>
-        <RegularList items={people}
-                     resourceName={'person'}
-                     itemComponent={SmallPersonListItem}></RegularList>
-    <RegularList items={people}
-                 resourceName={'person'}
-                 itemComponent={LargePersonListItem}></RegularList>
+            <RegularList items={people}
+                         resourceName={'person'}
+                         itemComponent={SmallPersonListItem}></RegularList>
+            <RegularList items={people}
+                         resourceName={'person'}
+                         itemComponent={LargePersonListItem}></RegularList>
+            <NumberedList items={products}
+                          resourceName={'product'}
+                          itemComponent={LargeProductListItem}></NumberedList>
+            <NumberedList items={products}
+                          resourceName={'product'}
+                          itemComponent={SmallProductListItem}></NumberedList>
         </>
-)
+    )
 }
 
 export default App2;
