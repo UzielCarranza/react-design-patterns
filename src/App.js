@@ -21,36 +21,3 @@ function App() {
 }
 
 export default App;
-
-
-// STARTS LIST, LIST ITEMS LESSON
-
-const people = [{
-    name: 'John Doe',
-    age: 54,
-    hairColor: 'brown',
-    hobbies: [
-        'swimming', 'biking', 'videogames'
-    ],
-}{
-    name: 'Brenda Smith',
-    age: 22,
-    hairColor: 'red',
-    hobbies: ['singing', 'dancing', 'videogames'],
-
-}];
-
-const products = [{
-    name: "TV",
-    price: '300',
-    description: 'huge TV'
-},
-    {
-        name: "basketball",
-        price: '30',
-        description: 'ball'
-
-    }
-
-]
-
