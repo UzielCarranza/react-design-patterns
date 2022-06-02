@@ -29,12 +29,12 @@ export const Modal = ({children}) => {
         <>
             <button onClick={() => setShouldShow(true)}>Show Modal</button>
             {shouldShow && (<ModalBackground onclick={() => setShouldShow(false)}>
-                    <ModalBody onClick={e => e.stopPropagation()}>
-                        <button onClick={() => setShouldShow(false)}>Hide Modal</button>
-                        {children}
-                    </ModalBody>
-                </ModalBackground>
-            )
+                        <ModalBody onClick={e => e.stopPropagation()}>
+                            <button onClick={() => setShouldShow(false)}>Hide Modal</button>
+                            {children}
+                        </ModalBody>
+                    </ModalBackground>
+                )}
+                < />
                 )
-                </>
             }
