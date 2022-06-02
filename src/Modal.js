@@ -13,7 +13,13 @@ overflow: auto;
 background-color: rgb(0,0,0,0.5);
 `;
 
-const ModalBody = styled.div``;
+const ModalBody = styled.div`
+background-color: white;
+margin: 10% auto;
+padding: 20px;
+width: 50%;
+
+`;
 
 export const Modal = ({children}) => {
     const [shouldShow, setShouldShow] = useState(false);
