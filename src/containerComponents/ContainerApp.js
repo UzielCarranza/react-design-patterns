@@ -1,6 +1,11 @@
+import {CurrentUserLoader} from './CurrentUserLoader'
+import {UserInfo} from './UserInfo';
+
 function ContainerApp(){
     return (
-        <h1>code goes here</h1>
+        <CurrentUserLoader>
+            <UserInfo></UserInfo>
+        </CurrentUserLoader>
     )
 }
 export default ContainerApp;
