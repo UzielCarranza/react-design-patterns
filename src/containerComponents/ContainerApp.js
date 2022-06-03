@@ -1,11 +1,12 @@
 import {CurrentUserLoader} from './CurrentUserLoader'
 import {UserInfo} from './UserInfo';
+import {UserLoader} from './UserLoader'
 
 function ContainerApp(){
     return (
-        <CurrentUserLoader>
+        <UserLoader userId="3">
             <UserInfo></UserInfo>
-        </CurrentUserLoader>
+        </UserLoader>
     )
 }
 export default ContainerApp;
