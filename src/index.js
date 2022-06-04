@@ -24,3 +24,9 @@ const root3 = ReactDOM.createRoot(document.getElementById('container-components'
 root3.render(
     <ContainerApp/>
 )
+
+const root4 = ReactDOM.createRoot(document.getElementById('resource-loader'));
+root4.render(
+    <ContainerApp/>
+)
+
