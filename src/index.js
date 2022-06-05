@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import ContainerApp from './containerComponents/ContainerApp'
 import App4 from './App4'
-
 import App2 from './App2';
+import App5 from './DataSource/App5'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,5 +29,10 @@ root3.render(
 const root4 = ReactDOM.createRoot(document.getElementById('resource-loader'));
 root4.render(
     <App4/>
+)
+
+const root5 = ReactDOM.createRoot(document.getElementById('data-source'));
+root5.render(
+    <App5/>
 )
 
