@@ -8,6 +8,7 @@ import App2 from './App2';
 import App5 from './DataSource/App5'
 import App6 from './UncontrolledComponents/App6'
 import App7 from './ControlledComponents/App7'
+import App8 from './ControlledModal/App8'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -47,5 +48,10 @@ const root7 = ReactDOM.createRoot(document.getElementById('controlled-components
 root7.render(
     <App7/>
 )
+const root8 = ReactDOM.createRoot(document.getElementById('controlled-modal'));
+root8.render(
+    <App8/>
+)
+
 
 
