@@ -12,6 +12,7 @@ import App8 from './ControlledModal/App8'
 
 import App10 from './UncontrolledOnboardingFlow/App10'
 import App11 from './ControlledBoardingFlow/App11'
+import App12 from './High_Order-Components/App12'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -66,6 +67,11 @@ const root11 = ReactDOM.createRoot(document.getElementById('controlled-onboardin
 root11.render(
     <App11/>
 )
+const root12 = ReactDOM.createRoot(document.getElementById('high-order-components'));
+root12.render(
+    <App12/>
+)
+
 
 
 
