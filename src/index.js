@@ -10,6 +10,8 @@ import App6 from './UncontrolledComponents/App6'
 import App7 from './ControlledComponents/App7'
 import App8 from './ControlledModal/App8'
 
+import App10 from './UncontrolledOnboardingFlow/App10'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
@@ -51,6 +53,12 @@ root7.render(
 const root8 = ReactDOM.createRoot(document.getElementById('controlled-modal'));
 root8.render(
     <App8/>
+)
+
+
+const root10 = ReactDOM.createRoot(document.getElementById('uncontrolled-onboarding-flow'));
+root10.render(
+    <App10/>
 )
 
 
