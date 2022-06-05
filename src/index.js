@@ -11,6 +11,7 @@ import App7 from './ControlledComponents/App7'
 import App8 from './ControlledModal/App8'
 
 import App10 from './UncontrolledOnboardingFlow/App10'
+import App11 from './ControlledBoardingFlow/App11'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -59,6 +60,11 @@ root8.render(
 const root10 = ReactDOM.createRoot(document.getElementById('uncontrolled-onboarding-flow'));
 root10.render(
     <App10/>
+)
+
+const root11 = ReactDOM.createRoot(document.getElementById('controlled-onboarding-flow'));
+root11.render(
+    <App11/>
 )
 
 
