@@ -13,7 +13,7 @@ import App8 from './ControlledModal/App8'
 import App10 from './UncontrolledOnboardingFlow/App10'
 import App11 from './ControlledBoardingFlow/App11'
 import App12 from './High_Order-Components/App12'
-
+import App13 from './High_Order-Components/App13'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
@@ -71,6 +71,12 @@ const root12 = ReactDOM.createRoot(document.getElementById('high-order-component
 root12.render(
     <App12/>
 )
+
+const root13 = ReactDOM.createRoot(document.getElementById('high-order-components2'));
+root13.render(
+    <App13/>
+)
+
 
 
 
