@@ -24,6 +24,7 @@ import App22 from './CustomHooksPatterns/useDataSource/App22'
 import App23 from './functionalProgramming/App23'
 import App24 from './functionalProgramming/recursiveComponents/App24'
 import App25 from './composition/App25'
+import App26 from './partiallyApply/App26'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -133,6 +134,11 @@ root21.render(
 const root22 = ReactDOM.createRoot(document.getElementById('component-composition'));
 root22.render(
     <App25/>
+)
+
+const root23 = ReactDOM.createRoot(document.getElementById('partially-apply-component'));
+root23.render(
+    <App26/>
 )
 
 
