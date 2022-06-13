@@ -23,6 +23,7 @@ import App21 from './CustomHooksPatterns/useResource/App21'
 import App22 from './CustomHooksPatterns/useDataSource/App22'
 import App23 from './functionalProgramming/App23'
 import App24 from './functionalProgramming/recursiveComponents/App24'
+import App25 from './composition/App25'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -129,7 +130,10 @@ root21.render(
     <App24/>
 )
 
-
+const root22 = ReactDOM.createRoot(document.getElementById('component-composition'));
+root22.render(
+    <App25/>
+)
 
 
 
