@@ -14,6 +14,9 @@ import App10 from './UncontrolledOnboardingFlow/App10'
 import App11 from './ControlledBoardingFlow/App11'
 import App12 from './High_Order-Components/App12'
 import App13 from './High_Order-Components/App13'
+import ModifyingDataWithHOCs from './modifyingDataWithHOCs/Modifying-data-with-HOCs'
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
@@ -77,7 +80,10 @@ root13.render(
     <App13/>
 )
 
-
+const root14 = ReactDOM.createRoot(document.getElementById('modifying-data-with-HOCs'));
+root14.render(
+    <ModifyingDataWithHOCs/>
+)
 
 
 
