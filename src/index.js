@@ -18,6 +18,7 @@ import ModifyingDataWithHOCs from './modifyingDataWithHOCs/Modifying-data-with-H
 import App18 from './ModifyingDataWithHOCsIMPROVED/App18'
 
 import App19 from './CustomHooksPatterns/App19'
+import App20 from './CustomHooksPatterns/useUser/App20'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -97,6 +98,12 @@ const root16 = ReactDOM.createRoot(document.getElementById('custom-hooks'));
 root16.render(
     <App19/>
 )
+
+const root17 = ReactDOM.createRoot(document.getElementById('custom-hooks-useUser'));
+root17.render(
+    <App20/>
+)
+
 
 
 
