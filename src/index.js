@@ -20,6 +20,7 @@ import App18 from './ModifyingDataWithHOCsIMPROVED/App18'
 import App19 from './CustomHooksPatterns/App19'
 import App20 from './CustomHooksPatterns/useUser/App20'
 import App21 from './CustomHooksPatterns/useResource/App21'
+import App22 from './CustomHooksPatterns/useDataSource/App22'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -109,6 +110,11 @@ root17.render(
 const root18 = ReactDOM.createRoot(document.getElementById('custom-hooks-useResource'));
 root18.render(
     <App21/>
+)
+
+const root19 = ReactDOM.createRoot(document.getElementById('custom-hooks-useDataSource'));
+root19.render(
+    <App22/>
 )
 
 
