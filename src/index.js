@@ -15,6 +15,7 @@ import App11 from './ControlledBoardingFlow/App11'
 import App12 from './High_Order-Components/App12'
 import App13 from './High_Order-Components/App13'
 import ModifyingDataWithHOCs from './modifyingDataWithHOCs/Modifying-data-with-HOCs'
+import App18 from './ModifyingDataWithHOCsIMPROVED/App18'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -83,6 +84,12 @@ root13.render(
 const root14 = ReactDOM.createRoot(document.getElementById('modifying-data-with-HOCs'));
 root14.render(
     <ModifyingDataWithHOCs/>
+)
+
+
+const root15 = ReactDOM.createRoot(document.getElementById('modifying-data-with-HOCs-improved'));
+root15.render(
+    <App18/>
 )
 
 
