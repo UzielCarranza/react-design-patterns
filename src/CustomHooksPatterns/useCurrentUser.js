@@ -1,11 +1,8 @@
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
-import * as assert from "assert";
-
 
 export const useCurrentUser = () => {
     const [user, setUser] = useState(null);
-
 
     useEffect(() => {
         (async () => {
@@ -16,5 +13,3 @@ export const useCurrentUser = () => {
 
     return user;
 }
-
-const currentUser = useCurrentUser();

@@ -17,6 +17,8 @@ import App13 from './High_Order-Components/App13'
 import ModifyingDataWithHOCs from './modifyingDataWithHOCs/Modifying-data-with-HOCs'
 import App18 from './ModifyingDataWithHOCsIMPROVED/App18'
 
+import App19 from './CustomHooksPatterns/App19'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -91,6 +93,11 @@ const root15 = ReactDOM.createRoot(document.getElementById('modifying-data-with-
 root15.render(
     <App18/>
 )
+const root16 = ReactDOM.createRoot(document.getElementById('custom-hooks'));
+root16.render(
+    <App19/>
+)
+
 
 
 
