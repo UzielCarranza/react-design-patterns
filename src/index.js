@@ -21,6 +21,7 @@ import App19 from './CustomHooksPatterns/App19'
 import App20 from './CustomHooksPatterns/useUser/App20'
 import App21 from './CustomHooksPatterns/useResource/App21'
 import App22 from './CustomHooksPatterns/useDataSource/App22'
+import App23 from './functionalProgramming/App23'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -115,6 +116,11 @@ root18.render(
 const root19 = ReactDOM.createRoot(document.getElementById('custom-hooks-useDataSource'));
 root19.render(
     <App22/>
+)
+
+const root20 = ReactDOM.createRoot(document.getElementById('functional-programming'));
+root20.render(
+    <App23/>
 )
 
 
