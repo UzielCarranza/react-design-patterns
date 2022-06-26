@@ -12,25 +12,36 @@
 // export default Hooks
 
 import {BsStarFill} from 'react-icons/bs';
+import {useState, useEffect} from 'react'
 
 const createArray = (length) => [
     ...Array(length)
 ]
 
 
-function Star({selected = false}) {
-    return <BsStarFill color={selected ? "red" : "grey"}/>
+function Star({selected = false, onSelect}) {
+    return <BsStarFill color={selected ? "red" : "grey"}
+                       onClick={onSelect}
+
+    />
 
 }
 
 function StarRating({totalStars}) {
-    return createArray(totalStars).map((n, i) => (
-        <Star key={i}></Star>
-    ))
+
+    const [selectedStars, setSelecteStars] = useState(0);
+    return (
+        <>{createArray(totalStars).map((n, i) => (
+            <Star key={i} selected={selectedStars > i}
+                  onSelect={() => setSelecteStars(i + 1)}></Star>
+        ))}
+            <p>{selectedStars} of {totalStars}</p>
+        </>
+    )
 }
 
 function Hooks() {
-    return <StarRating totalStars={10}/>
+    return <StarRating totalStars={5}/>
 
 }
 
