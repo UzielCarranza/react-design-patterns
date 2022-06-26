@@ -26,6 +26,7 @@ import App24 from './functionalProgramming/recursiveComponents/App24'
 import App25 from './composition/App25'
 import App26 from './partiallyApply/App26'
 import Hooks from './hooks/Hooks'
+import Effects from './hooks/UseEffect/Effects'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -147,7 +148,10 @@ root24.render(
     <Hooks/>
 )
 
-
+const root25 = ReactDOM.createRoot(document.getElementById('use-effects'));
+root25.render(
+    <Effects/>
+)
 
 
 
