@@ -25,7 +25,7 @@ import App23 from './functionalProgramming/App23'
 import App24 from './functionalProgramming/recursiveComponents/App24'
 import App25 from './composition/App25'
 import App26 from './partiallyApply/App26'
-import {Deliver} from './hooks/Deliver'
+import Hooks from './hooks/Hooks'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -144,7 +144,7 @@ root23.render(
 
 const root24 = ReactDOM.createRoot(document.getElementById('hooks'));
 root24.render(
-    <Deliver/>
+    <Hooks/>
 )
 
 
