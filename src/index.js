@@ -141,6 +141,11 @@ root23.render(
     <App26/>
 )
 
+const root24 = ReactDOM.createRoot(document.getElementById('hooks'));
+root24.render(
+    <Deliver/>
+)
+
 
 
 
