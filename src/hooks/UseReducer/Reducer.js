@@ -1,6 +1,6 @@
 import {useState, useEffect, useReducer} from 'react'
 
-function Reducer() {
+export const Reducer = () => {
     const [number, setNumber] = useReducer(
         (number, newNumber) => number + newNumber,
         0
@@ -10,5 +10,3 @@ function Reducer() {
         <h1 onClick={() => setNumber(1)}>{number}</h1>
     )
 }
-
-export default Reducer;

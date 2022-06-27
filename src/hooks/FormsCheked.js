@@ -15,7 +15,7 @@
 // }
 
 
-import {useState} from 'react'
+import {useReducer} from 'react'
 
 export const FormsCheked = () => {
     const [checked, setChecked] = useReducer(() => setChecked((checked) => !checked));

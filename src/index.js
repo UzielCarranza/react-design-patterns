@@ -29,7 +29,7 @@ import Hooks from './hooks/Hooks'
 import Effects from './hooks/UseEffect/Effects'
 
 
-import Reducer from './hooks/UseReducer/Reducer'
+import MainAppReducer from './hooks/UseReducer/MainAppReducer'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -157,7 +157,7 @@ root25.render(
 )
 const root26 = ReactDOM.createRoot(document.getElementById('use-reducer'));
 root26.render(
-    <Reducer/>
+    <MainAppReducer/>
 )
 
 
